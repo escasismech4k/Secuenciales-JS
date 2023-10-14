@@ -1,0 +1,30 @@
+body{
+    background-color: wheat;
+    margin: 10px;
+}
+
+.container{
+    margin: 10%;
+    background-color: lightcyan;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#resultado {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+    color:blue
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <h1>Primera clase</h1>
+        <div class="container">
+        <form action="">
+            <label for="">Ingrese nota parcial 1</label>
+            <input type="number" name="Parcial 1" id="p1" required>
+            <div id="mp1"></div>
+            <label for="">Ingrese nota parcial 2</label>
+            <input type="number" name="Parcial 2" id="p2" required>
+            <label for="">Ingrese nota parcial 3</label>
+            <input type="number" name="Parcial 3" id="p3" required>
+            <label for="">Ingrese nota examen</label>
+            <input type="number" name="examen" id="examen" required>
+            <label for="">Ingrese nota trabajo final</label>
+            <input type="number" name="trabajo" id="trabajo" required>
+            <button type="button" onclick="CalcularNota()">Calcular</button>    
+        </form>
+        <div id="resultado">
+
+        </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
